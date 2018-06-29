@@ -1,0 +1,52 @@
+html, body, * {
+    box-sizing: border-box;
+    outline: none;
+}
+
+* {
+    font-size: 46px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    padding-top: 50px;
+}
+
+h1, div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    padding-top: 25px;
+}
+
+button {
+    color: #FFFFFF;
+    background: #A9A9A9;
+}
+
+button, input {
+    border-radius: 10px;
+}
+
+button {
+    margin: 0 15px;
+    width: 60px;
+    border-width: 2.5px;
+    border-color: #A9A9A9;
+}
+
+input {
+    border-width: 2.5px;
+    border-color: #A9A9A9;
+    width: 100px;
+    text-align: center;
+}
+
+button:hover {
+    color: #A9A9A9;
+    background: #FFFFFF;
+}
